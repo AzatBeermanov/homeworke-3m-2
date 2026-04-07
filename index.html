@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+  <h1>Мои вкладки</h1>
+
+  <div class="tabs">
+    <div class="tab active" onclick="showTab(0)">Природа</div>
+    <div class="tab" onclick="showTab(1)">Горы</div>
+    <div class="tab" onclick="showTab(2)">Море</div>
+    <div class="tab" onclick="showTab(3)">Город</div>
+  </div>
+
+  <div class="content">
+    <h2 id="title">Природа</h2>
+    <p id="text">Красивые леса, деревья и свежий воздух.</p>
+    <img id="image" src="https://picsum.photos/id/1018/400/250">
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
